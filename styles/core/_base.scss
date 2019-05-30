@@ -4,4 +4,6 @@ body {
     margin: $space;
     @include flex();
     @include center();
+    @include borderRadius();
+    @include boxShadow();
 }
