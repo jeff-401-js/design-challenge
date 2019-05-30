@@ -1,4 +1,7 @@
 body {
-  background-color: $rootColor;
-  border-color: $accentColor;
+    background-color: $rootColor;
+    border-color: $accentColor;
+    margin: $space;
+    @include flex();
+    @include center();
 }
