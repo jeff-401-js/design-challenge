@@ -9,3 +9,14 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@mixin center(){
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+@mixin box-shadow(){
+  box-shadow: 7px, 3px, 3px, rgb(14, 1, 32);
+}
