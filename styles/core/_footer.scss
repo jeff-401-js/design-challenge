@@ -1,0 +1,9 @@
+body {
+  background-color: $rootColor;
+  border-color: $accentColor;
+  margin: $space;
+  @include flex();
+  @include center();
+  @include borderRadius();
+  @include boxShadow();
+}
